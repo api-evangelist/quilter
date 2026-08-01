@@ -1,8 +1,33 @@
 aid: quilter
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quilter.png
 name: Quilter
-description: 'Quilter is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the
-  enrichment pipeline.'
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
+description: >-
+  Quilter is a physics-driven AI platform that automates printed circuit board
+  (PCB) placement and routing. Using reinforcement learning, it converts a
+  schematic into multiple fabrication-ready layout candidates in hours instead
+  of weeks, validating each against physical constraints through Physics Rule
+  Checks (impedance control, differential pairs, power nets, bypass capacitors,
+  keepouts, and stackup rules). Quilter supports Altium, Cadence Allegro,
+  Siemens Xpedition, KiCAD, and OrCAD formats and handles boards of roughly
+  100-1,000 components with 2,000-5,000 pins to route. It is delivered as a
+  hosted web application (app.quilter.ai) with a startup program and a free
+  tier; there is no public developer API, SDK, or CLI surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/quilter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Ml
+- PCB Design
+- EDA
+- Electronics Design Automation
+- Reinforcement Learning
+- Hardware
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/quilter-domain-security.yml
 - type: Website
-  url: http://quilter.ai
+  url: https://www.quilter.ai
+- type: Documentation
+  url: https://docs.quilter.ai/
+- type: HelpCenter
+  url: https://help.quilter.ai/en/
+- type: Support
+  url: https://www.quilter.ai/support
+- type: Community
+  url: https://community.quilter.ai/
+- type: Blog
+  url: https://www.quilter.ai/blog
+- type: ChangeLog
+  url: https://www.quilter.ai/changelog
+- type: ChangeLog
+  name: Quilter Changelog (harvested)
+  url: changelog/quilter-changelog.yml
+- type: Pricing
+  url: https://www.quilter.ai/pricing
+- type: Login
+  url: https://app.quilter.ai/sign-in
+- type: TermsOfService
+  url: https://www.quilter.ai/terms
+- type: PrivacyPolicy
+  url: https://www.quilter.ai/privacy

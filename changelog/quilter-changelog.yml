@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.quilter.ai/changelog
+scheme: date-based
+current_version: null
+notes: >-
+  Quilter publishes a dated product changelog for its AI PCB design web
+  application (app.quilter.ai). Entries track product/UI capabilities, physics
+  calculations, and constraint handling; there is no developer API, SDK, or CLI
+  surface, so entries are feature-level rather than versioned API releases.
+entries:
+  - date: '2026-05-31'
+    breaking: false
+    highlights:
+      - '"Blind and Buried Vias" in active development to support HDI boards and dense designs'
+  - date: '2026-05-01'
+    breaking: false
+    highlights:
+      - Clearance constraints now read directly from input files
+      - Automated BGA fanouts eliminate manual prep work
+  - date: '2026-04-07'
+    breaking: false
+    highlights:
+      - Calculated impedance profiles powered by Simbeor
+      - New Projects feature organizes design iterations
+  - date: '2026-03-26'
+    breaking: false
+    highlights:
+      - Ground net comprehension and restructured setup flow
+      - Single stackup per job and improved candidate reviewer
+  - date: '2025-12-31'
+    breaking: false
+    highlights:
+      - '2025 theme "User Design Intent": power pour generation, regions/smart clustering, stackup import, keepout updates'
